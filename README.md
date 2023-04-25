@@ -49,7 +49,7 @@
 
 ## スクリーンショット
 
-![image](https://user-images.githubusercontent.com/8155294/234266420-364a8e8a-f7fe-473b-8dee-6bbf540d68a2.png)
+![Screenshot from 2023-04-25 23-50-19](https://user-images.githubusercontent.com/8155294/234316221-242bb857-b1a3-4322-a850-8e3ed8dc739b.png)
 
 ## とってもありがとう
 
