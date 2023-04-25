@@ -44,6 +44,7 @@ loginButton.addEventListener('click', async () => {
     });
 
     if (client) {
+      // ログインに成功したらログインボタンは無効にする
       loginButton.disabled = true;
       footer.innerText += `\n\nログインしました。`;      
     } else {
