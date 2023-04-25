@@ -24,7 +24,7 @@ submitButton.addEventListener('click', async () => {
     });
 
     // 投稿した結果をフッターに表示する
-    footer.innerText += `\n\n${status.url}\n${status.text}`;
+    footer.innerHTML += `<br><br>${status.url}<br>${status.content}`;
 });
 
 // ログインボタンが押されたらログイン処理を行う
@@ -46,8 +46,8 @@ loginButton.addEventListener('click', async () => {
     if (client) {
         // ログインに成功したらログインボタンは無効にする
         loginButton.disabled = true;
-        footer.innerText += `\n\nログインしました。`;      
+        footer.innerText += `ログインしました。`;      
     } else {
-        footer.innerText += `\n\nログインに失敗しました。`;      
+        footer.innerText += `ログインに失敗しました。`;      
     }
 });
