@@ -1,0 +1,13 @@
+{
+    "name": "dev",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "dev": "vite"
+    },
+    "dependencies": {
+        "masto": "^5.11.2",
+        "vite": "^4.3.1"
+    }
+}

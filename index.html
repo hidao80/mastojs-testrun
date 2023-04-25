@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f418.png">
+    <title>Mastojs-testrun</title>
+    <script src="./index.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <h1>Mastojs-testrun</h1>
+        <div>
+            <form>
+                <!-- type="password" はformタグの中にないとChrome軽ブラウザで警告が出る -->
+                <label for="accessToken">アクセストークン</label>
+                <input type="password" name="accessToken" id="accessToken" placeholder="アクセストークンをコピペして下さい。" autocomplete>    
+            </form>
+        </div>
+        <div>
+            <label for="instance">インスタンス</label>
+            <input type="text" name="instance" id="instance" placeholder="インスタンスのURLを入力して下さい。">
+        </div>
+        <button>ログイン</button>
+    </header>
+    <main>
+        <textarea rows="6"></textarea>
+        <button>投稿</button>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
