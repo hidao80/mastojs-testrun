@@ -44,10 +44,10 @@ loginButton.addEventListener('click', async () => {
     });
 
     if (client) {
-      // ログインに成功したらログインボタンは無効にする
-      loginButton.disabled = true;
-      footer.innerText += `\n\nログインしました。`;      
+        // ログインに成功したらログインボタンは無効にする
+        loginButton.disabled = true;
+        footer.innerText += `\n\nログインしました。`;      
     } else {
-      footer.innerText += `\n\nログインに失敗しました。`;      
+        footer.innerText += `\n\nログインに失敗しました。`;      
     }
 });

@@ -4,7 +4,8 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "dev": "vite"
+        "dev": "vite",
+        "build": "vite build"
     },
     "dependencies": {
         "masto": "^5.11.2",
