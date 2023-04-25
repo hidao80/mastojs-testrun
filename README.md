@@ -60,6 +60,10 @@
 
 `Masto.js`自体は投稿の読み込みなどもできるっぽいですが、ここではとりあえずブラウザ上で動作確認するだけにとどめています。
 
+## スクリーンショット
+
+![image](https://user-images.githubusercontent.com/8155294/234266420-364a8e8a-f7fe-473b-8dee-6bbf540d68a2.png)
+
 ## とってもありがとう
 
 @woxtu
